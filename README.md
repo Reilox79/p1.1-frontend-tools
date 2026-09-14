@@ -41,7 +41,7 @@ Ennumerate and explain each one of the files included in this repo.
     - **Path Intellisense:** autocompletes file paths and names when importing.
     - **Auto Rename Tag:** automatically renames the matching closing tag when editing the opening one (HTML/JSX).
 6. **Find in VSCode the option in `Settings` to `Format On Save` and activate it. What effect has this option?**
-![Imagen](image.png)
+![Imagen](images/format-on-save.png)
 
 ### Create a Hello World in JS
 
