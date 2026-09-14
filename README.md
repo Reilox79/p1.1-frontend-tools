@@ -46,7 +46,6 @@ Ennumerate and explain each one of the files included in this repo.
 ### Create a Hello World in JS
 
 7. **Create an `index.html` file inside your worspace folder.**
-![alt text](image-2.png)
 
 8. **Create the basic html structure using the `!` snippet and change the title to 'Hello World'**
 
@@ -64,7 +63,7 @@ Ennumerate and explain each one of the files included in this repo.
     </html>
     ```
 
-![alt text](image-3.png)
+<![alt text](images/html-empty.png)>
 
 
 9.  **Create a new file called `app.js` and add this two lines**
@@ -73,49 +72,48 @@ Ennumerate and explain each one of the files included in this repo.
     console.log("Hello Console!")
     document.body.innerHTML = "<h1>Hello document!<h1>"
     ```
-![alt text](image-1.png)
+![alt text](images/console-log.png)
 
 10. **Import the script in your html using one of the techniques explained in class. Explain here the technique, show the code and justify why did you choose this technique**.
 
-![alt text](image-4.png)
+![alt text](images/html-js.png)
 
 ```
 This technique separates the JavaScript logic from the HTML structure by placing the JS code in its own .js file and linking it to the HTML document using the <script> tag with a src attribute. The <script> tag is placed right before the closing </body> tag so that the browser fully parses and renders the HTML content first, before loading and executing the JavaScript. This prevents errors caused by scripts trying to access DOM elements that haven't been created yet.
 ```
 
 11. **Launch `index.html` in Live Server and check that the script is running. Click right button and select inspect to show the developer tools and take a look on the console.**
-![alt text](image-5.png)
+![alt text](images/hello-document.png)
 
 12. **Change some message in the JS code and save changes. You can check that Live Server refreshes the web page.**
 
-![alt text](image-6.png)
+![alt text](images/hello-world.png)
 
 ### Create a simple form with Bootstrap 4. 
 
 13. **At this point, we are going to create a page called `form.html` starting from the `Bs5-$` template provided by the Bootstrap extension we added. What files does this template import in the html by default?**
 
-![alt text](image.png)
+![alt text](images/navbar-template.png)
 ```
 It generates a full HTML5 boilerplate with Bootstrap already wired in and it imports Bootstrap CSS (via CDN link in the <head>): the compiled and minified bootstrap.min.css, which provides all Bootstrap's styles, grid system, and components.
 Bootstrap Bundle JS (via CDN script, usually right before </body>): the compiled and minified bootstrap.bundle.min.js, which includes Bootstrap's JavaScript plugins (modals, dropdowns, tooltips, etc.) and Popper.js bundled together, so you don't need to import Popper separately.
 ```
 
 1.  **Create a `<div>`with the class `.container` to wrap all the sections in the web page**
-  ![alt text](image-1.png)
 
 2.  **Add a standard navigation bar inside the nav area using the `bs5-navbar-standard` snippet inside the container**
-![alt text](image-2.png)
+![alt text](images/navbar.png)
 
 3.  **Inside the main area create a form using Bootstrap to collect data from a new user who wants to register at an academy that offers courses. We can copy code from [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/forms/overview/)**. 
-![alt text](image-3.png)
-![alt text](image-4.png)
+![alt text](images/form.png)
+![alt text](images/navbar-web.png)
 
 ### Install Git, and upload your repository to GitHub
 
 17. **Install [git](https://git-scm.com/) in your computer**.
     
 18. **Init the git repository**
-    
+![alt text](images/git.png)
 19. **Log in to your GitHub account provided by IES Azarquiel**
     
 20. **Follow the teacher on GitHub at the following link: [https://github.com/jeatzr/](https://github.com/jeatzr/)**
