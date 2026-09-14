@@ -117,9 +117,13 @@ Bootstrap Bundle JS (via CDN script, usually right before </body>): the compiled
 19. **Log in to your GitHub account provided by IES Azarquiel**
     
 20. **Follow the teacher on GitHub at the following link: [https://github.com/jeatzr/](https://github.com/jeatzr/)**
+
+![alt text](images/jota.png)
     
 21. **Create a new empty repository on GitHub named `p1.1-frontend-tools`.**
     
 22. **Follow the instructions in the command line provided by GitHub to add your files, create the first commit and push it. Notice that in out case we have to add all files to the staged area with `git add .`, not just`git add README.md`** 
+
+![alt text](images/subida.png)
     
 23. **To finish, submit the link of your GH repo to the task in our Classroom.**"# DWEC" 
